@@ -3,10 +3,10 @@ package com.zhaiyz.annotationdemo.bean;
 import com.zhaiyz.annotationdemo.annotation.Column;
 import com.zhaiyz.annotationdemo.annotation.Table;
 
-@Table
+@Table(name = "user")
 public class User {
 
-	@Column
+	@Column(size = 1)
 	private long id;
 
 	@Column
